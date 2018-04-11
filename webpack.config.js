@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   context: path.join(__dirname, 'src'),
   entry: [
-    './main.js',
+    './index.js',
   ],
   output: {
     path: path.join(__dirname, 'www'),
@@ -18,6 +18,22 @@ module.exports = {
           'babel-loader',
         ],
       },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {}  
+          }
+        ]
+      },
+      {
+        test: /\.css$/,
+        use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" }
+        ]
+      }
     ],
   },
   resolve: {
@@ -26,3 +42,4 @@ module.exports = {
     ],
   },
 };
+
