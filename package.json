@@ -6,6 +6,8 @@
   "scripts": {
     "start": "nodemon server.js",
     "compile": "webpack --watch",
+    "dev-compile": "webpack",
+    "dev-start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
