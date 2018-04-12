@@ -236,7 +236,7 @@ app.use(webpackDevMiddleware(compiler, {
 
 
 
-   app.set('port', process.env.PORT || 3000)
+   app.set('port', process.env.PORT || 80)
 
   const server = app.listen(app.get('port'), () => {
     console.log('running on port:' + app.get('port'))
