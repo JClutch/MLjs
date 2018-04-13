@@ -23,10 +23,10 @@ npm start
  
  You can see a deployed version of this repo [here](goo.gl/aPavMc)
  
- Current Projects Include :
- 1.) K-Nearest-Neighbor
- 2.) Genetic Algorithms: N-Queens
- 3.) Neural Network: Digit Recognizer (Interactive canvas coming soon)
- 4.) K-Clustering : movie recommendation next??
+ Current Projects Include -- <br>
+ 1.) K-Nearest-Neighbor <br>
+ 2.) Genetic Algorithms: N-Queens <br>
+ 3.) Neural Network: Digit Recognizer (Interactive canvas coming soon) <br>
+ 4.) K-Clustering : movie recommendation next?? <br>
  
  
